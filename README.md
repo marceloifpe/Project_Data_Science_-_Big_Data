@@ -51,13 +51,18 @@ Este projeto aplica um **pipeline completo de Data Science** — da ingestão br
 ## 🗂️ Estrutura do Repositório
 
 ```
-📦 projeto-data-science-belo-jardim
-├── 📁 db/
-│   ├── 2024.sql                  # Empenhos do exercício 2024
-│   └── 2025.sql                  # Empenhos do exercício 2025
-├── 📄 main.py                    # Script principal (ETL + Análises + Relatório)
-├── 📊 banco_empenhos.db          # Banco SQLite gerado pelo script
-├── 📑 Relatorio_Auditoria_BeloJardim.xlsx  # Relatório Excel gerado
+📦 Project_Data_Science_-_Big_Data
+├── 📁 Projeto-BD2/
+│   ├── 📁 db/
+│   │   ├── 2024.sql                 # Empenhos do exercício 2024
+│   │   └── 2025.sql                 # Empenhos do exercício 2025
+│   ├── 📄 main.py                   # Script principal (ETL + Análises + Relatório)
+│   ├── 🗄️ banco_empenhos.db         # Banco SQLite gerado pelo script
+│   ├── 📊 Relatorio_Auditoria_BeloJardim.xlsx  # Relatório Excel gerado
+│   └── 📋 requirements.txt          # Dependências do projeto
+├── 📄 .gitignore
+├── 📄 .gitattributes
+├── 📄 LICENSE
 └── 📄 README.md
 ```
 
@@ -156,9 +161,32 @@ Z = ─────────────────────
 
 ### Pré-requisitos
 
+**1. Clone o repositório:**
 ```bash
-pip install pandas numpy matplotlib openpyxl
+git clone https://github.com/seu-usuario/Project_Data_Science_-_Big_Data.git
+cd Project_Data_Science_-_Big_Data/Projeto-BD2
 ```
+
+**2. Crie e ative o ambiente virtual:**
+
+Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+Linux/macOS:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**3. Instale as dependências:**
+```bash
+pip install -r requirements.txt
+```
+
+> ℹ️ O módulo `sqlite3` já vem **nativo no Python** — não está no `requirements.txt` e não precisa ser instalado.
 
 ### Estrutura de Pastas Esperada
 
