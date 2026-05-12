@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # ==========================================
-# PROJETO: Banco de Dados II e Data Science
-# EQUIPA: Marcel Gustavo, Marcelo Augusto de Barros Araújo e João Lucas
+# PROJETO: Análise de Gastos Públicos da Prefeitura aplicando Data Science no contexto de Big Data
+# EQUIPE: Marcel Gustavo, Marcelo Augusto e João Lucas
 # ==========================================
 
 # ==========================================
